@@ -1,8 +1,9 @@
+import React from 'react';
 import Image from "next/image";
 import { Container } from "@/components/Container";
 import heroImg from "../../public/img/eyesAI.jpg";
 
-export const Hero = () => {
+const Hero = () => {
   return (
     <>
       <Container className="flex flex-wrap ">
@@ -44,5 +45,6 @@ export const Hero = () => {
       
     </>
   );
-}
+};
 
+export default Hero;
