@@ -18,10 +18,6 @@ yarn install
 yarn list
 ```
 
-### Clean the Project
-```sh
-yarn clean
-```
 
 ### Run Development Server
 To start the development server and host your project locally, use the following command:
